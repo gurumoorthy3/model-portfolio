@@ -1,0 +1,440 @@
+:root {
+    --primary: #12bdff;
+    --dark-primary: #1b1f24;
+    --nunito: 'Nunito Sans', Sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+header {
+    background-color:  #22282f;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+header .logo{
+    font-family: 'Dancing Script', cursive;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0px;
+ 
+
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header li {    
+    margin-right: 20px;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+header ul li a:hover {
+    color: var(--primary);
+}
+header button {
+    padding: 10px 15px ;
+    font-weight: bold;
+    background-color:  #22282f;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 3px;
+}
+header button:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: white;
+}
+section.hero-section {
+    background-color: var(--dark-primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 150px 0px 150px ;
+}
+.hero-section__title  {
+    font-size: 30px;
+    font-weight: bold;
+    padding:5px 0px 5px 0px;
+}
+.hero-section__desc {
+     color: aqua;
+     
+}
+.social-icons {
+    margin: 20px 0px;
+    font-size: 25px;
+}
+.social-icons li{
+    margin-right: 15px;
+}
+ul.social-icons {
+    list-style: none;
+    display: flex;
+}
+.social-icons li > a {
+    text-decoration:  none;
+    color: white;
+}
+.social-icons li a > i.fa-square-facebook:hover {   
+    color: #0072b1;
+}
+.social-icons li a > i.fa-square-x-twitter:hover {   
+    color: #00acee;
+}
+.social-icons li a > i.fa-square-instagram:hover {   
+    color: #feda75;
+}
+.social-icons li a > i.fa-linkedin:hover {   
+    color: #0072b1;
+}
+
+.btn
+ {
+    
+    padding: 10px 15px ;
+    font-weight: bold;
+    background-color: var(--dark-primary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 3px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: white;
+}
+
+/* About me */
+.about-section 
+{
+    background-color: #22282f; 
+    color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-section--desc
+{
+
+    margin-left: 100px;
+    max-width: 450px;
+
+}
+.about-section--desc h4
+{
+    font: size 30px;
+    font-weight: 900;
+}
+
+.about-section--desc ul
+{
+    list-style: none;
+    margin: 10px 0;
+
+}
+
+.about-section--desc li
+{
+    margin-bottom: 10px;
+    color: gray ;
+
+}
+
+.about-section--desc li > a
+{
+
+    text-decoration: none;
+    color: gray;
+
+}
+.about-section--desc li > a:hover
+{
+    color: var(--primary);
+}
+
+.about-section--desc li > strong
+{
+    color: white;
+}
+.about-section--desc button
+{
+
+    padding: 10px 15px ;
+    font-weight: bold;
+    background-color:  var(--primary);
+    border: 1px solid var(--primary);
+    color: white;
+    border-radius: 3px;
+}
+
+.about-section img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    box-shadow: 1px 1px 1px 1px rgb(153, 135, 235);
+}
+
+/* my works */
+
+
+.work-section
+{
+    background-color: var(--dark-primary);
+    color: white;
+    padding: 60px;
+    text-align: center;
+
+}
+
+.work-section__title
+{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+}
+.work-section__title span
+{
+    color: var(--primary);
+}
+
+.work-section-box
+{
+    background-color: #22282f;
+    padding: 40px;
+    max-width: 300px;
+    text-align:left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+
+.work-section-box:hover
+{
+    background-color: #1b1f24;
+    border: 1px solid #fff;
+}
+.work-section-box p
+{
+    color: gray;
+    font-size: 15px;
+
+}
+
+.work-section-box a
+{
+    text-decoration: none;
+    color: #feda75;
+       
+}
+
+.work-section-box__desc
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.work-section-box__desc p
+{
+    padding-top: 5px;
+
+}
+.work-section-box__icon
+{
+    background-color: rgb(89, 89, 207);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+.work-section-box__icon:hover
+{
+    background-color: var(--primary);
+}
+
+.work-section-items
+{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section
+{
+    background-color:  #22282f;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section h4
+{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.contact-section h4 span 
+{
+    color: var(--primary);
+}
+.contact-section form input, textarea
+{
+    padding: 5px 10px;
+    outline: none;
+    width: 300px;
+    background-color: whitesmoke;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-style: var(--nunito);
+
+}
+
+footer
+{
+    background-color: var(--dark-primary);
+    color: gray;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+footer a
+{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+
+@media only screen and (max-width:600px)  
+{
+ header 
+ {
+    flex-direction: column;
+    
+
+ }   
+ header > * 
+ {
+    margin-bottom: 20px;
+    
+
+ }
+ 
+ /* .hero-section */
+
+.hero-section
+{
+    flex-direction: column;
+    padding: 20px 20px;
+    
+    
+    
+}
+
+.hero-section h4
+{
+    margin-left: 0;
+    margin-top: 50px;
+}
+.btn
+{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
+
+
+/* .about-section */
+
+section.about-section
+{
+    flex-direction: column;
+    padding: 10px;
+}
+.about-section--desc
+{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: unset;
+}
+
+/* my works */
+
+.work-section
+{
+    padding: 20px 10px;
+}
+
+
+
+.work-section-items
+{
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.work-section-box
+{
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right: 0;
+}
+
+/* contact */
+
+.contact-section form input,
+textarea {
+    width: 50%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
