@@ -68,6 +68,7 @@ header button:hover {
     color: white;
 }
 section.hero-section {
+
     background-color: var(--dark-primary);
     color: white;
     display: flex;
@@ -197,12 +198,15 @@ ul.social-icons {
 
 .about-section img
 {
+
     width: 250px;
     height: 250px;
     border-radius: 50%;
     border: 2px solid var(--primary);
     box-shadow: 1px 1px 1px 1px rgb(153, 135, 235);
+
 }
+
 
 /* my works */
 
@@ -329,6 +333,7 @@ footer
     padding: 20px 0px;
     text-align: center;
     font-size: 12px;
+    
 }
 footer a
 {
